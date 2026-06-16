@@ -24,7 +24,7 @@ La propuesta visual y narrativa del proyecto tomó inspiración de diferentes re
 
 La atmósfera visual del sitio estuvo inspirada en la estética cálida, natural y fantástica de:
 
-![Vista previa](./images/little-witch)
+![Vista previa del proyecto](./assets/images/little-witch.png)
 
 Esta referencia sirvió como guía para elementos como la paleta de color, ambientación, composición visual y sensación narrativa del proyecto.
 
@@ -74,7 +74,7 @@ cd mujeres-gaming-latam
 
 Este proyecto fue desarrollado como **proyecto final de la asignatura Storytelling**, explorando el uso de narrativas digitales interactivas para comunicar problemáticas sociales relacionadas con la participación de las mujeres en videojuegos competitivos en Latinoamérica.
 
-![Vista previa](./images/preview.png)
+![Vista previa del proyecto](./assets/images/preview.png)
 
 ## Autor
 
