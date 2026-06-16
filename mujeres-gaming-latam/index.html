@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Storytelling - Proyecto Final
+    </title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="spine" aria-hidden="true">
+        <div class="spine-fill" id="spine-fill"></div>
+    </div>
+
+<header class="site-header">
+    <div class="site-logo">
+        Mujeres en videojuegos competitivos
+    </div>
+</header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="eyebrow">
+                Proyecto Final · Storytelling
+            </div>
+            <h1>
+                ¿Cuáles son los desafíos y dinámicas que viven las mujeres en los videojuegos competitivos en línea en Latinoamérica?
+            </h1>
+            <p class="lead">
+                Un recorrido por la participación, el acoso, las estrategias de
+                adaptación y las redes de apoyo que configuran la experiencia
+                femenina en los espacios competitivos de juego en línea.
+            </p>
+            <div class="author">
+                María José Ospina
+            </div>
+            <div class="cue">
+                ▼ Desliza para explorar
+            </div>
+        </div>
+    </section>
+
+<main class="scrolly">
+
+    <div class="graphic">
+        <div class="stage">
+            <div class="panel active" id="panel-1">
+                <div class="waffles" id="waffles1"></div>
+            </div>
+            <div class="panel" id="panel-2">
+                <div class="competition-chart">
+                    <div class="chart-row">
+                        <div class="game-name">
+                            Valorant
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill valorant" data-w="23.9">
+                                <span>23,9%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <div class="game-name">
+                            Mobile Legends
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill mobile" data-w="11.7">
+                                <span>11,7%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <div class="game-name">
+                            Counter-Strike 2
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill cs" data-w="5.3">
+                                <span>5,3%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel" id="panel-3">
+                <div class="slope-wrap">
+                    <div class="slope-legend">
+                        <span><span class="dash dash--rose"></span>Presenció acoso a otras</span>
+                        <span><span class="dash dash--lav"></span>Reporte personal de acoso</span>
+                    </div>
+                    <svg viewBox="0 0 480 250" width="100%" role="img"
+                        aria-label="Gráfico de pendiente del acoso entre 2024 y 2025">
+                        <line x1="120" y1="20" x2="120" y2="210" stroke="var(--border)" stroke-width="1.5"/>
+                        <line x1="360" y1="20" x2="360" y2="210" stroke="var(--border)" stroke-width="1.5"/>
+                        <text x="120" y="234" text-anchor="middle" class="slope-axis">2024</text>
+                        <text x="360" y="234" text-anchor="middle" class="slope-axis">2025</text>
+                        <line class="slope-el" x1="120" y1="86" x2="360" y2="44"
+                            stroke="var(--rose)" stroke-width="3" stroke-linecap="round"/>
+                        <line class="slope-el slope-el--2" x1="120" y1="98" x2="360" y2="186"
+                            stroke="var(--lav-deep)" stroke-width="3" stroke-dasharray="6 5" stroke-linecap="round"/>
+                        <circle class="slope-el" cx="120" cy="86" r="5.5" fill="var(--rose)"/>
+                        <circle class="slope-el" cx="360" cy="44" r="5.5" fill="var(--rose)"/>
+                        <circle class="slope-el slope-el--2" cx="120" cy="98" r="5.5" fill="var(--lav-deep)"/>
+                        <circle class="slope-el slope-el--2" cx="360" cy="186" r="5.5" fill="var(--lav-deep)"/>
+                        <text class="slope-el slope-val" x="108" y="82" text-anchor="end">80,4%</text>
+                        <text class="slope-el slope-val" x="108" y="116" text-anchor="end">78,6%</text>
+                        <text class="slope-el slope-val" x="372" y="40">87,1%</text>
+                        <text class="slope-el slope-el--2 slope-val" x="372" y="190">63,4%</text>
+                    </svg>
+                </div>
+            </div>
+            <div class="panel" id="panel-4">
+                <svg class="treemap" viewBox="0 0 500 330" width="100%" role="img"
+                    aria-label="Mapa de árbol de las categorías de acoso">
+                    <g class="tile">
+                        <rect x="0" y="0" width="318" height="128" rx="6" fill="var(--sev3)"/>
+                        <text class="tile-title" x="16" y="34" fill="#FFFFFF">Insultos y slurs</text>
+                        <text class="tile-sub" x="16" y="56" fill="#FCEAF0">«perra» encabeza los registros</text>
+                    </g>
+                    <g class="tile">
+                        <rect x="0" y="134" width="318" height="106" rx="6" fill="var(--sev2)"/>
+                        <text class="tile-title" x="16" y="168" fill="#6E2438">Estereotipos sexistas</text>
+                        <text class="tile-sub" x="16" y="190" fill="#8A3A4F">«vuelve a la cocina»</text>
+                    </g>
+                    <g class="tile">
+                        <rect x="0" y="246" width="318" height="84" rx="6" fill="var(--sev1)"/>
+                        <text class="tile-title" x="16" y="280" fill="#6E2438">Cuestionamiento de habilidad</text>
+                        <text class="tile-sub" x="16" y="302" fill="#8A3A4F">«no deberías jugar»</text>
+                    </g>
+                    <g class="tile">
+                        <rect x="324" y="0" width="176" height="124" rx="6" fill="var(--sev4)"/>
+                        <text class="tile-title" x="340" y="34" fill="#FFFFFF">Invasión de</text>
+                        <text class="tile-title" x="340" y="54" fill="#FFFFFF">privacidad</text>
+                        <text class="tile-sub" x="340" y="78" fill="#FCEAF0">simpeo · doxing</text>
+                    </g>
+                    <g class="tile">
+                        <rect x="324" y="130" width="176" height="104" rx="6" fill="var(--sev5)"/>
+                        <text class="tile-title" x="340" y="164" fill="#FFFFFF">Amenazas de</text>
+                        <text class="tile-title" x="340" y="184" fill="#FFFFFF">violencia</text>
+                    </g>
+                    <g class="tile">
+                        <rect x="324" y="240" width="176" height="90" rx="6" fill="var(--sev6)"/>
+                        <text class="tile-title" x="340" y="274" fill="#FFFFFF">Autolesión y</text>
+                        <text class="tile-sub" x="340" y="296" fill="#F7D2DC">ataques familiares</text>
+                    </g>
+                </svg>
+            </div>
+            <div class="panel" id="panel-5">
+                <div class="waffle-solo">
+                    <div class="waffle-solo-num" id="num-silencio">91%</div>
+                    <div class="waffle-solo-lab">
+                        usa seudónimos neutros para que no se note que es mujer
+                    </div>
+                    <div class="wgrid wgrid--silencio" id="waffle-silencio" data-fill="91"></div>
+                </div>
+            </div>
+            <div class="panel" id="panel-6">
+                <div class="balance">
+                    <div class="balance-col balance-col--good">
+                        <h3>▲ Lo que ya existe</h3>
+                        <div class="balance-item">
+                            <div class="balance-h">Ligas propias</div>
+                            <div class="balance-d">Freya, GameHers, Game Changers</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Apoyo de marcas</div>
+                            <div class="balance-d">Kotex, Movistar, HyperX, HP</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Premios reales</div>
+                            <div class="balance-d">GameHers: USD 5.000</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Audiencia récord</div>
+                            <div class="balance-d">Game Changers supera a la OWL</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Medallas oficiales</div>
+                            <div class="balance-d">Arcane Witches, 2024</div>
+                        </div>
+                    </div>
+                    <div class="balance-col balance-col--bad">
+                        <h3>▼ Lo que aún falta</h3>
+                        <div class="balance-item">
+                            <div class="balance-h">Poca financiación</div>
+                            <div class="balance-d">la escena femenina apenas remunera</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Sin continuidad</div>
+                            <div class="balance-d">eventos aislados, no una carrera</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Sin respaldo estatal</div>
+                            <div class="balance-d">los esports no son deporte oficial</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Poca difusión</div>
+                            <div class="balance-d">los logros no se viralizan</div>
+                        </div>
+                        <div class="balance-item">
+                            <div class="balance-h">Doble carga</div>
+                            <div class="balance-d">compaginar el juego con empleo formal</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel" id="panel-7">
+                <div class="family-stat">
+                    <div class="family-num" id="num-familia">59,2%</div>
+                    <div class="family-lab">
+                        de las jugadoras dedica tiempo a jugar en familia
+                    </div>
+                    <div class="family-track">
+                        <div class="family-fill" id="fill-familia" data-w="59.2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-8">
+                <div class="peru-chart">
+                    <div class="peru-legend">
+                        <span><span class="chip chip--social"></span>Social / cooperativo</span>
+                        <span><span class="chip chip--comp"></span>Competitivo</span>
+                    </div>
+                    <div class="peru-row">
+                        <div class="peru-name">Free Fire</div>
+                        <div class="peru-track"><div class="peru-fill peru-fill--comp" data-w="38"></div></div>
+                        <div class="peru-pct">38%</div>
+                    </div>
+                    <div class="peru-row">
+                        <div class="peru-name">Roblox</div>
+                        <div class="peru-track"><div class="peru-fill peru-fill--social" data-w="34"></div></div>
+                        <div class="peru-pct">34%</div>
+                    </div>
+                    <div class="peru-row">
+                        <div class="peru-name">Minecraft</div>
+                        <div class="peru-track"><div class="peru-fill peru-fill--social" data-w="27"></div></div>
+                        <div class="peru-pct">27%</div>
+                    </div>
+                    <div class="peru-row">
+                        <div class="peru-name">Among Us</div>
+                        <div class="peru-track"><div class="peru-fill peru-fill--social" data-w="18"></div></div>
+                        <div class="peru-pct">18%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="steps">
+        <section class="step active" data-step="0">
+            <div class="eyebrow">
+                Presencia
+            </div>
+            <h2>
+                La participación comienza desde edades tempranas
+            </h2>
+            <p>
+                Casi ocho de cada diez mujeres comenzaron a jugar videojuegos
+                antes de los diez años.
+            </p>
+            <p>
+                La idea de que las mujeres llegaron tarde al ecosistema gamer
+                no se sostiene cuando observamos sus trayectorias.
+            </p>
+            <p>
+                Muchas de ellas crecieron jugando, desarrollaron una identidad
+                vinculada a los videojuegos y algunas incluso terminaron
+                trabajando dentro de la industria.
+            </p>
+            <p class="note">
+                Cada cuadro representa a una de cada cien mujeres encuestadas.
+                Son cuatro indicadores independientes, no partes de un mismo total.
+            </p>
+        </section>
+        <section class="step" data-step="1">
+            <div class="eyebrow">
+               Competencia
+            </div>
+            <h2>
+                Participan, pero siguen siendo minoría
+            </h2>
+            <p>
+                Incluso en los espacios competitivos donde existe una mayor
+                presencia femenina, las mujeres representan menos de una
+                cuarta parte del ecosistema competitivo.
+            </p>
+            <p>
+                Valorant presenta la cifra más alta con 23,9%, mientras que
+                Counter-Strike 2 apenas alcanza 5,3%.
+            </p>
+            <p class="note">
+                Cada barra es el 100% del ecosistema de ese juego: la franja
+                de color es la presencia femenina; el resto, todo lo demás.
+            </p>
+        </section>
+        <section class="step" data-step="2">
+            <div class="eyebrow">
+                El ambiente
+            </div>
+            <h2>
+                El entorno competitivo se vuelve hostil
+            </h2>
+            <p>
+                Entre 2024 y 2025, la proporción de jugadoras que presenció
+                acoso hacia otras aumentó del 80,4% al 87,1%.
+            </p>
+            <p>
+                Paradójicamente, el reporte personal de acoso descendió del
+                78,6% al 63,4%.
+            </p>
+            <p class="note">
+                Las investigadoras interpretan esta caída no como una mejora,
+                sino como una señal de normalización del acoso.
+            </p>
+        </section>
+        <section class="step" data-step="3">
+            <div class="eyebrow">
+                 Palabras de acoso 
+            </div>
+            <h2>
+                La violencia tiene una estructura reconocible
+            </h2>
+            <p>
+                El acoso no aparece de forma aleatoria: se organiza en
+                categorías que van desde insultos frecuentes hasta amenazas
+                extremas.
+            </p>
+            <p>
+                El área de cada bloque refleja qué tan presente está la
+                categoría; el color, qué tan grave resulta.
+            </p>
+            <p class="note">
+                Los tamaños son cualitativos: el estudio no entrega conteos
+                exactos por palabra. Las frases más violentas se nombran, no
+                se exhiben.
+            </p>
+        </section>
+        <section class="step" data-step="4">
+            <div class="eyebrow">
+                Capítulo 5 · El silencio
+            </div>
+            <h2>
+                Frente al acoso, muchas optan por ocultarse
+            </h2>
+            <p>
+                El 91% de las jugadoras utiliza seudónimos neutros para evitar
+                que se identifique su género.
+            </p>
+            <p>
+                La misma presencia que llenaba la pantalla en el primer
+                capítulo aquí se atenúa como estrategia de supervivencia.
+            </p>
+        </section>
+        <section class="step" data-step="5">
+
+            <div class="eyebrow">
+                La respuesta
+            </div>
+            <h2>
+                Existen redes de apoyo, pero son insuficientes
+            </h2>
+            <p>
+                Han surgido ligas femeninas, patrocinios de marcas e incluso
+                reconocimientos oficiales como medallas panamericanas.
+            </p>
+            <p>
+                Sin embargo, persisten la falta de financiación, la ausencia
+                de continuidad y el escaso respaldo institucional.
+            </p>
+        </section>
+        <section class="step" data-step="6">
+            <div class="eyebrow">
+                Cierre
+            </div>
+            <h2>
+                Y aun así, eligen seguir jugando
+            </h2>
+            <p>
+                El 59,2% de las jugadoras dedica tiempo a jugar en familia.
+            </p>
+            <p>
+                Después del acoso y de la adaptación, el valor del juego
+                compartido y seguro es lo que permanece.
+            </p>
+        </section>
+        <section class="step" data-step="7">
+
+            <div class="eyebrow">
+               Contexto
+            </div>
+            <h2>
+                Lo social pesa tanto como lo competitivo
+            </h2>
+            <p>
+                Entre menores en Perú, tres de los cuatro juegos más populares
+                son sociales o cooperativos.
+            </p>
+            <p class="note">
+                Estos datos corresponden a población infantil en Perú; se
+                incluyen como contexto, no como respuesta directa a la pregunta.
+            </p>
+        </section>
+    </div>
+</main>
+    <section class="outro">
+        <h2>
+            Conclusiones
+        </h2>
+        <p>
+            Las mujeres participan activamente en los videojuegos competitivos
+            desde edades tempranas. Sin embargo, sus experiencias están
+            atravesadas por desigualdades, dinámicas de exclusión y estrategias
+            constantes para permanecer en espacios que todavía presentan barreras
+            para su participación plena.
+        </p>
+    </section>
+    <section class="sources">
+        <h2>
+            Fuentes
+        </h2>
+        <ul>
+            <li>
+                Estudio «Mujeres en VG 2025»
+            </li>
+            <li>
+                Informes regionales sobre esports y videojuegos competitivos (2024–2025)
+            </li>
+            <li>
+                Estudios y reportes utilizados en el proyecto
+            </li>
+        </ul>
+        <p class="sources-note">
+            Nota de honestidad: los indicadores provienen de estudios y
+            poblaciones distintas, no siempre comparten denominador, los
+            tamaños del treemap son cualitativos y los juegos populares
+            corresponden a menores en Perú, no a mujeres.
+        </p>
+    </section>
+    <div class="sources-drawer">
+    </div>
+    <script src="js/charts.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

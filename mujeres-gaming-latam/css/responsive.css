@@ -1,0 +1,55 @@
+/* RESPONSIVE                                        */
+@media(max-width:768px){
+    .spine{
+        display:none;
+    }
+    .site-header{
+        padding:0 20px;
+    }
+    .hero h1{
+        font-size:2.4rem;
+    }
+    .lead{
+        font-size:1rem;
+    }
+    .scrolly{
+        grid-template-columns:1fr;
+        gap:0;
+        padding:0 24px 60px;
+    }
+    .graphic{
+        position:sticky;
+        top:120px;
+        height:46vh;
+        background:var(--bg);
+        z-index:5;
+        border-bottom:1px solid var(--border);
+    }
+    .stage{
+        min-height:0;
+        height:42vh;
+    }
+    .step{
+        min-height:auto;
+        padding:32vh 0 8vh;
+        opacity:1;
+    }
+    .step h2{
+        font-size:1.4rem;
+    }
+    .competition-chart{
+        padding-right:48px;
+    }
+    .balance{
+        gap:10px;
+    }
+}
+
+@media (prefers-reduced-motion:reduce){
+    *{
+        transition:none !important;
+        animation:none !important;
+        scroll-behavior:auto !important;
+    }
+
+}

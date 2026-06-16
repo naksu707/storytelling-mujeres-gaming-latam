@@ -1,0 +1,32 @@
+/* VARIABLES GLOBALES                                */
+:root{
+
+    --bg:#FFFDF8;
+    --pink:#F6C7D5;
+    --pink-strong:#F6A6C9;
+    --yellow:#FFE8A3;
+    --blue:#B7DDF2;
+    --blue-strong:#A7D8FF;
+    --lavender:#D9CEF7;
+    --lav-deep:#9D86D9;
+    --text:#343434;
+    --muted:#6F6F6F;
+    --border:#E8E4DD;
+    /* tonos de severidad para el acoso (escala rosa) */
+    --rose:#E5708E;
+    --rose-deep:#C24B6B;
+    --sev1:#F8D7DF;
+    --sev2:#F2B3C4;
+    --sev3:#EA8FA9;
+    --sev4:#DE6A89;
+    --sev5:#C9476B;
+    --sev6:#A8385A;
+    /* balance: a favor (azul) / en contra (rosa) */
+    --good-bg:#E5F1FB;
+    --good-ink:#3E6E8E;
+    --bad-bg:#FBE4EA;
+    --bad-ink:#B24F6B;
+    --track:#F2EADF;
+    --font-title:'Pixelify Sans', sans-serif;
+    --font-body:'Inter', sans-serif;
+}
